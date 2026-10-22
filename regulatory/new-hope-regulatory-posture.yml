@@ -1,0 +1,52 @@
+generated: '2026-10-22'
+method: searched
+source: https://newhopegroup.com.au/privacy-policy/
+signals:
+  data_subject_request:
+    url: https://newhopegroup.com.au/privacy-policy/
+    section: Accessing and correcting your personal information
+    channel: https://newhopegroup.com.au/contact-us/
+    rights_named: [access, correction, notification of correction to recipients, note of disagreement]
+    evidence:
+    - source: https://newhopegroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Please contact us if you wish to seek access to or correction of your personal information that we hold.
+        Please provide as much detail as you can about the information required, to help us retrieve it. We may
+        need to verify your identity. If we decline your request, we will usually need to tell you why.
+    - source: https://newhopegroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        If we correct information that we have disclosed to someone else, you can ask us to tell them about the
+        correction. If we decline to make a correction you request, you can ask us to note your disagreement
+        together with the information.
+    note: >-
+      Access and correction rights (the Australian Privacy Principles 12/13 pattern) via the Privacy Officer
+      contact form; identity verification may be required. No deletion or portability right and no response
+      time are stated.
+  subprocessors:
+    url: https://newhopegroup.com.au/privacy-policy/
+    section: Who we share personal information with
+    evidence:
+    - source: https://newhopegroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        service providers (including providers of IT, recruitment, investigation, health, marketing, advertising,
+        data broking and background check services);
+    note: >-
+      Only CATEGORIES of service providers are disclosed; no named subprocessor list is published. The site
+      also says it "may use Google services such as Google Analytics from time to time".
+  data_residency:
+    url: https://newhopegroup.com.au/privacy-policy/
+    section: Who we share personal information with
+    evidence:
+    - source: https://newhopegroup.com.au/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: Some of these parties may be located overseas.
+    note: >-
+      A cross-border disclosure statement only: recipients may be overseas, with no countries named and no
+      residency or localisation commitment.

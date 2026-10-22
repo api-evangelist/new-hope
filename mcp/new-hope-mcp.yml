@@ -1,0 +1,20 @@
+name: New Hope Group MCP Server
+type: MCPServer
+generated: '2026-10-22'
+method: none
+status: none
+description: >-
+  No official hosted or local MCP server from New Hope Group was found, and the company publishes no OpenAPI or
+  other API contract to derive a candidate tool list from. So this file lists no tools.
+source:
+  - url: https://newhopegroup.com.au/.well-known/mcp.json
+    status: 404
+  - url: https://newhopegroup.com.au/llms.txt
+    status: 404
+  - search: '"New Hope Group" OR "New Hope Corporation" coal MCP server OR API developer'
+    result: no New Hope result
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
+tools: []

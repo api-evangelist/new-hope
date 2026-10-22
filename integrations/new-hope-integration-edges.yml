@@ -1,0 +1,25 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/new-hope/integrations
+- https://zapier.com/apps/new-hope-group/integrations
+- https://n8n.io/integrations/new-hope/
+- https://composio.dev/toolkits/new-hope
+- https://monid.ai/tools/new-hope
+checked:
+- https://newhopegroup.com.au/
+- https://newhopegroup.com.au/developers
+- https://newhopegroup.com.au/api
+- https://zapier.com/apps/new-hope/integrations
+- https://composio.dev/toolkits/new-hope
+- https://monid.ai/tools/new-hope
+- https://n8n.io/integrations/new-hope/
+- https://zapier.com/apps/new-hope-group/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: 'New Hope Group is an ASX-listed coal producer with no public developer API, documentation, app marketplace
+  listing or integrations/partners page. Homepage links contain no API, developer, docs, integration or partner
+  links; /developers and /api return 404; no Zapier app exists. Statuses: homepage 200, /developers 404, /api 404,
+  Zapier listing 404.'
